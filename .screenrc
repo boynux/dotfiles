@@ -1,0 +1,5 @@
+caption
+# hardstatus alwayslastline "%{kB}[ %D %M %c %H ]%{yk} %-Lw%45>%n %t%+Lw%45>%=L: %l%{dd}"
+# termcapinfo xterm* ti@:te@
+hardstatus off
+hardstatus alwayslastline "%?%F%{-b Bk}%:%{-b Bk}%?[ %d %M %c %H ]%?%F%? %L=%-w%{w}[ %n %t ]%{-}%+w%=L: %l"
